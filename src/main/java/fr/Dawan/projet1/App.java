@@ -14,7 +14,7 @@ public static void main( String[] args )
 {
         myLogger.info("My first log");
         myLogger.warn("My first warning");
-        myLoggerError.log(Level.ERROR, new NullPointerException("Erreur"));
+        myLoggerError.log(Level.ERROR, new NullPointerException("Erreuur"));
 }
 
 }
